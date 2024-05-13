@@ -62,7 +62,7 @@ This formulation uses the following:
 1. A strict restriction regarding the evolution of the Battery temperature.
 Use of the Big M formulation to deal with the absolute value nature of the temperature rise made by power flow.
 In this sense, to model the condition that:
-```latex
+```math
 \begin{align*}
 DELTA T_P 	&= |Power io| x Coefficient x control interval \\
 		&=  |Power io x Coefficient x control interval| \\
