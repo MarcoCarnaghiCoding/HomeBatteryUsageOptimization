@@ -2,7 +2,7 @@
 
 The aim of the project is to develope an optimization problem to reduce energy costs associated with a building while maintaining appropriate operating conditions for a battery storage system.
 
-## FIRST Attempt ITEM
+## FIRST Attempt 
 The first step is to create a simple model for a battery storage system with 100% efficiency.
 
 I decided to design the battery's capacity to cover the energy difference during periods of peak power load compared to the average load.
@@ -103,7 +103,7 @@ cooling_on = False.
 This can be represented using two variables M1 and M2 that bound the difference between Temperature of the Battery and Ambient temperature.
 ```math
 \begin{equation*}
--M1 +1 < Temperature of the Battery - Ambient temperature < M2.
+-M1 +1 < Temperature\; of\; the\; Battery\; -\; Ambient\; temperature\; < M2.
 \end{equation*}  
 ```
 which can be calculated from the temperature_max and temperature_min conditions.
