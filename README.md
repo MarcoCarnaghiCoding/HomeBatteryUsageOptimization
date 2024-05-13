@@ -70,7 +70,7 @@ DELTA T_P 	&= |Power io|\; x\; Coefficient \;x \;control interval \\
 \end{align*}
 ```
 AS both the coefficient and the control interval are positive. I wrote the condition as the interception of two conditions, i.e:
-```latex
+```math
 \begin{equation*}
 DELTA T_P \geq K and DELTA T_P \leq KB
 \end{equation*}
@@ -78,7 +78,7 @@ DELTA T_P \geq K and DELTA T_P \leq KB
 which have formulations declared in the literature.
 
 In this case: 
-```latex
+```math
 \begin{equation*}
 K = DELTA T_C + DELTA T_B
 \end{equation*}
@@ -101,7 +101,7 @@ cooling_on = True.
 ELSE 
 cooling_on = False.
 This can be represented using two variables M1 and M2 that bound the difference between Temperature of the Battery and Ambient temperature.
-```latex
+```math
 \begin{equation*}
 -M1 +1 < Temperature of the Battery - Ambient temperature < M2.
 \end{equation*}  
