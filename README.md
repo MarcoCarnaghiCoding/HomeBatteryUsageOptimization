@@ -64,8 +64,8 @@ Use of the Big M formulation to deal with the absolute value nature of the tempe
 In this sense, to model the condition that:
 ```math
 \begin{align*}
-DELTA T_P 	&= |Power io| x Coefficient x control interval \\
-		&=  |Power io x Coefficient x control interval| \\
+DELTA T_P 	&= |Power io|\; x\; Coefficient \;x \;control interval \\
+		&=  |Power io \;x\; Coefficient\; x\; control interval| \\
 		&== DELTA T_C + DELTA T_B
 \end{align*}
 ```
